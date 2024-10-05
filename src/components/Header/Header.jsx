@@ -11,7 +11,7 @@ const Header = () => {
 	};
 
 	window.addEventListener('load', initializeMenu);
-	window.addEventListener('resize', initializeMenu); // Викликаємо при зміні розміру екрану
+	window.addEventListener('resize', initializeMenu);
 	window.addEventListener('orientationchange', initializeMenu);
 
 	return (
