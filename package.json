@@ -1,7 +1,7 @@
 {
   "name": "fetch-studio",
   "version": "0.1.0",
-  "homepage": "https://github.com/Acidhouzee/fetch-studio",
+  "homepage": "https://acidhouzee.github.io/fetch-studio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
