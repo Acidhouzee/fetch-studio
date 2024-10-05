@@ -5,9 +5,10 @@ import '../../fontello/css/fontello.css';
 
 const Header = () => {
 
-	window.addEventListener('load', () => lightDark('.light-dark-mode'));
-
-	window.addEventListener('load', () => Burger());
+	window.addEventListener('DOMContentLoaded', () => {
+		lightDark('.light-dark-mode');
+		Burger();
+	});
 
 	return (
 		<header>
