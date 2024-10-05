@@ -1,0 +1,395 @@
+@media(max-width: 1279px) {
+  .cursor {
+    display: none;
+  }
+  * {
+    cursor: auto !important;
+  }
+  .container {
+    padding: 0 30px;
+  }
+  footer .footer-wrap {
+    padding: 110px 0;
+  }
+  .hero-section {
+    .hero-content {
+      display: none;
+      &.hero-content-mob {
+        margin-top: 30px;
+        display: flex;
+      }
+    }
+  }
+  .about-section {
+    .about-title {
+      max-width: 100%;
+    }
+    .about-description {
+      max-width: 35%;
+    }
+  }
+  .c2a-section {
+    padding: 80px 0;
+    .col-wrap {
+      padding: 25px 11px;
+
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+  .services-section .content .content-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .services-section {
+    padding-bottom: 120px;
+  }
+  .contact-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 1065px) {
+  .hero-section h2 {
+    font-size: 4.2em;
+  }
+
+  .services-section {
+    .title-wrap {
+      width: 100%;
+    }
+    .content {
+      width: 100%;
+      padding-top: 30px;
+      padding-left: 0;
+    }
+  }
+  h2 {
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+}
+
+@media (max-width: 1023px) {
+  html {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 2.4em;
+  }
+  h4 {
+    line-height: 1.1em;
+  }
+  .menu-burger {
+    position: relative;
+    display: block;
+    z-index: 999999;
+  }
+  .menu-container {
+    nav {
+      display: none;
+    }
+  }
+
+  header {
+    .logo {
+      font-size: 1.4em;
+    }
+    .row {
+      gap: 20px;
+      .item {
+        &:nth-of-type(1) {
+          order: 1;
+        }
+        &:nth-of-type(2) {
+          order: 3;
+        }
+        &:nth-of-type(3) {
+          order: 2;
+        }
+      }
+    }
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    width: 100%;
+    background: #000;
+    z-index: 99999;
+    transition: 0.7s all ease;
+
+    &.active {
+      top: 0;
+    }
+
+    .logo-mobile {
+      position: absolute;
+      top: 35px;
+      left: 30px;
+      color: var(--light);
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      font-size: 30px;
+
+      a {
+        margin-right: 0;
+        text-align: center;
+        color: var(--light);
+
+        &:hover,
+        &:focus {
+          color: var(--main);
+        }
+      }
+    }
+  }
+
+  .hero-section {
+    padding: 50px 0;
+    img {
+      margin-top: 50px;
+    }
+    h2 {
+      font-size: 3.2em;
+      > span .circle:after,
+      > span .circle:before {
+        width: 68px;
+        height: 68px;
+      }
+    }
+  }
+
+  .about-section {
+    .about-title {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .about-description {
+      max-width: 55%;
+    }
+  }
+  .c2a-section {
+    padding: 50px 0;
+    .col-wrap {
+      padding: 15px 10px;
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+  .services-section {
+    padding-bottom: 80px;
+  }
+  .projects-section {
+    padding-bottom: 80px;
+  }
+  .contact-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .container .row {
+      .contact-details h2 {
+        max-width: 100%;
+        margin-bottom: 15px;
+      }
+      > * {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+  .contact-details {
+    margin-bottom: 30px;
+  }
+  .project-tags {
+    gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 30px;
+    label {
+      font-size: 16px;
+      padding: 8px 21px;
+    }
+  }
+  .form-sup {
+    margin-bottom: 20px;
+  }
+  .form-wrap {
+    margin-bottom: 20px;
+  }
+  .form-input {
+    font-size: 16px;
+    margin-top: 18px;
+    padding-bottom: 8px;
+  }
+  .input-wrapper.input-wrapper_extra {
+    margin-top: 20px;
+  }
+  textarea.form-input {
+    margin-bottom: 25px;
+  }
+  footer {
+    .footer-wrap {
+      padding: 80px 0;
+    }
+    .contacts {
+      width: 85%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 2em;
+    line-height: 1em;
+  }
+  h3 {
+    font-size: 1.7em;
+  }
+  h4 {
+    font-size: 1.3em;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .services-section {
+    padding-bottom: 60px;
+    .content .content-item {
+      flex-wrap: wrap;
+
+      .item {
+        flex-basis: calc((100% - 20px) / 2);
+
+        &:first-child {
+          flex-basis: 100%;
+        }
+      }
+    }
+  }
+  footer {
+    .copyright .row {
+      padding: 14px 0;
+    }
+    .footer-wrap {
+      padding: 60px 0;
+    }
+    .pages {
+      width: 100%;
+    }
+    .contacts {
+      width: 100%;
+      margin-bottom: 30px;
+      .contacts-wrap {
+        flex-wrap: wrap;
+        .contacts-email {
+          margin-left: 0;
+          margin-top: 10px;
+        }
+      }
+      h2 {
+        width: 100%;
+      }
+    }
+  }
+  header .row .item:nth-of-type(1) {
+    flex: 1 1 50%;
+  }
+  .btn {
+    padding: 12px 28px;
+  }
+  .hero-section {
+    img {
+      margin-top: 30px;
+      border-radius: 20px;
+    }
+    .hero-content {
+      &.hero-content-mob {
+        margin-top: 20px;
+      }
+      > * {
+        margin-bottom: 10px;
+      }
+    }
+    h2 {
+      font-size: 35px;
+      > span {
+        gap: 15px;
+        .circle:after,
+        .circle:before {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .about-section {
+    .about-title {
+      font-size: 1.3em;
+    }
+  }
+  .text-marked .ti-cursor {
+    font-size: 18px;
+    line-height: 0;
+  }
+  .about-section .about-description {
+    max-width: 100%;
+  }
+  .c2a-section {
+    padding: 40px 0;
+    .row {
+      margin-right: -10px;
+    }
+    .col-wrap {
+      width: calc(50% - 10px);
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .projects-section {
+    padding-bottom: 60px;
+    h3 {
+      font-size: 1.6em;
+    }
+    .title-wrap {
+      margin-bottom: 30px;
+    }
+    .items-row {
+      flex-wrap: wrap;
+      gap: 30px;
+      + .items-row {
+        margin-top: 0;
+      }
+    }
+
+    .item-wrap {
+      transform: none !important;
+      .tags-list {
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .contact-us {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .container .row .contact-details p {
+      font-size: 16px;
+    }
+  }
+  .project-tags label {
+    font-size: 15px;
+    padding: 5px 16px;
+  }
+}
