@@ -5,10 +5,14 @@ import '../../fontello/css/fontello.css';
 
 const Header = () => {
 
-	window.addEventListener('DOMContentLoaded', () => {
+	const initializeMenu = () => {
 		lightDark('.light-dark-mode');
 		Burger();
-	});
+	};
+
+	window.addEventListener('load', initializeMenu);
+	window.addEventListener('resize', initializeMenu); // Викликаємо при зміні розміру екрану
+	window.addEventListener('orientationchange', initializeMenu);
 
 	return (
 		<header>
