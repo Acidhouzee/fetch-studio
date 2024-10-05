@@ -28,7 +28,11 @@ const ContactForm = () => {
 
 		EmailJS.sendForm(SERVICE, TEMPLATE, form.current, {publicKey: PUB_KEY}).then(
 			(response) => {
-				setStateToast({status: true, response: 'success', message: 'Your message has been sent successfully!'})
+				setStateToast({
+					status: true,
+					response: 'success',
+					message: 'Your message has been sent successfully!'
+				})
 			},
 			(error) => {
 				setStateToast({
@@ -77,7 +81,7 @@ const ContactForm = () => {
 					</div>
 				</div>
 				<div className="input-wrapper cursor-scale small">
-					<input id="user_phone" className="form-input" required type="number" name="tel"/>
+					<input id="user_phone" className="form-input" required type="number" name="user_phone"/>
 					<label className="form-label" htmlFor="user_phone">Phone</label>
 				</div>
 				<div className="input-wrapper input-wrapper_extra cursor-scale small">

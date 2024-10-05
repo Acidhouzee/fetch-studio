@@ -857,6 +857,9 @@ footer {
 .form-input:focus {
   border-color: #fff;
 }
+.form-input:valid {
+  background-color: transparent !important;
+}
 .form-input {
   &.form-control,
   &:focus,
