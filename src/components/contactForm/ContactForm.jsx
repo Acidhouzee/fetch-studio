@@ -1,6 +1,6 @@
 import {useRef, useState, useEffect} from 'react';
 import EmailJS from '@emailjs/browser';
-import env from 'react-dotenv';
+//import env from 'react-dotenv';
 import Toast from '../../helpers/Toast';
 
 const ContactForm = () => {
