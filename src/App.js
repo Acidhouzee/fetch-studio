@@ -1,4 +1,4 @@
-import {useEffect} from "react";
+import {useEffect, Suspense} from "react";
 import {Route, Routes, useLocation} from "react-router-dom";
 import Cursor from "./helpers/cursor";
 // CSS
@@ -19,10 +19,12 @@ function App() {
     return (
         <>
             <Header/>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="*" element={<NotFound/>}/>
-            </Routes>
+            <Suspense>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+                </Routes>
+            </Suspense>
             <Footer/>
             <div className="cursor"/>
         </>
