@@ -8,7 +8,7 @@ import './responsive.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter basename='/fetch-studio'>
+    <BrowserRouter basename='/fetch-studio/'>
         <App />
     </BrowserRouter>
 );
