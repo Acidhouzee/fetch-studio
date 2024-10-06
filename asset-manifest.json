@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fetch-studio/static/css/main.71735f90.css",
+    "main.css": "/fetch-studio/static/css/main.053009a7.css",
     "main.js": "/fetch-studio/static/js/main.f6ab2d53.js",
     "static/media/project-2.jpg": "/fetch-studio/static/media/project-2.edb5eefd85a183626b17.jpg",
     "static/media/slider03.jpg": "/fetch-studio/static/media/slider03.a91534bfca677cedac6f.jpg",
@@ -17,11 +17,11 @@
     "static/media/fontello.woff2?79838384": "/fetch-studio/static/media/fontello.653fd066786aaf6877ba.woff2",
     "static/media/fontello.svg?79838384": "/fetch-studio/static/media/fontello.f277a9c6fc08bc38132b.svg",
     "index.html": "/fetch-studio/index.html",
-    "main.71735f90.css.map": "/fetch-studio/static/css/main.71735f90.css.map",
+    "main.053009a7.css.map": "/fetch-studio/static/css/main.053009a7.css.map",
     "main.f6ab2d53.js.map": "/fetch-studio/static/js/main.f6ab2d53.js.map"
   },
   "entrypoints": [
-    "static/css/main.71735f90.css",
+    "static/css/main.053009a7.css",
     "static/js/main.f6ab2d53.js"
   ]
 }
