@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fetch-studio/static/css/main.f97df7dc.css",
-    "main.js": "/fetch-studio/static/js/main.3ed16570.js",
+    "main.css": "/fetch-studio/static/css/main.39a19373.css",
+    "main.js": "/fetch-studio/static/js/main.d3f5e98c.js",
     "static/media/project-2.jpg": "/fetch-studio/static/media/project-2.edb5eefd85a183626b17.jpg",
     "static/media/slider03.jpg": "/fetch-studio/static/media/slider03.a91534bfca677cedac6f.jpg",
     "static/media/project-3.jpg": "/fetch-studio/static/media/project-3.f3f405c57fb3554238e2.jpg",
@@ -17,11 +17,11 @@
     "static/media/fontello.woff2?79838384": "/fetch-studio/static/media/fontello.653fd066786aaf6877ba.woff2",
     "static/media/fontello.svg?79838384": "/fetch-studio/static/media/fontello.f277a9c6fc08bc38132b.svg",
     "index.html": "/fetch-studio/index.html",
-    "main.f97df7dc.css.map": "/fetch-studio/static/css/main.f97df7dc.css.map",
-    "main.3ed16570.js.map": "/fetch-studio/static/js/main.3ed16570.js.map"
+    "main.39a19373.css.map": "/fetch-studio/static/css/main.39a19373.css.map",
+    "main.d3f5e98c.js.map": "/fetch-studio/static/js/main.d3f5e98c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f97df7dc.css",
-    "static/js/main.3ed16570.js"
+    "static/css/main.39a19373.css",
+    "static/js/main.d3f5e98c.js"
   ]
 }
