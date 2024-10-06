@@ -39,6 +39,11 @@ body {
   background-color: var(--light);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  &.scroll-remove {
+    position: fixed;
+    overflow: hidden; 
+  }
 }
 
 .container {
