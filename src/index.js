@@ -12,3 +12,5 @@ root.render(
         <App />
     </BrowserRouter>
 );
+
+// add to github-pages <BrowserRouter basename='/fetch-studio/'>

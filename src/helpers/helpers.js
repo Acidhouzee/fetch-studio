@@ -49,8 +49,10 @@ function Burger() {
 
         if(!removeScroll.classList.contains('scroll-remove')){
             removeScroll.classList.add('scroll-remove');
+            removeScroll.style.overflow = 'hidden';
         } else {
             removeScroll.classList.remove('scroll-remove');
+            removeScroll.style.overflow = 'auto';
         }
     });
 }

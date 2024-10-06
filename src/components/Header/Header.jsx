@@ -2,17 +2,14 @@ import {Link} from 'react-scroll';
 import lightDark from '../../helpers/darkLight';
 import {Burger} from '../../helpers/helpers';
 import '../../fontello/css/fontello.css';
+import { useEffect } from 'react';
 
 const Header = () => {
 
-	const initializeMenu = () => {
+	useEffect(() => {
 		lightDark('.light-dark-mode');
 		Burger();
-	};
-
-	window.addEventListener('load', initializeMenu);
-	window.addEventListener('resize', initializeMenu);
-	window.addEventListener('orientationchange', initializeMenu);
+	}, []);
 
 	return (
 		<header>
